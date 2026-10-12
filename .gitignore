@@ -1,0 +1,11 @@
+# 本仓库只提交经过检查的问题描述和脱敏证据。
+.codex/
+private/
+raw-logs/
+backups/
+*.reg
+*.toml
+*.jsonl
+*.env
+.env*
+__pycache__/

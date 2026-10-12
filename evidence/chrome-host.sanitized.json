@@ -1,0 +1,23 @@
+{
+  "source": "本机 Chrome 官方诊断的脱敏前后摘要",
+  "recordDate": "2026-10-12",
+  "before": {
+    "extensionInstalled": true,
+    "extensionEnabled": true,
+    "manifestExists": false,
+    "hostConfigurationCorrect": false,
+    "registryManifestPathMissing": true,
+    "nativeHostIndexesEmpty": true,
+    "controlResult": "Browser is not available: chrome"
+  },
+  "after": {
+    "exists": true,
+    "nameMatches": true,
+    "registryMatchesManifestPath": true,
+    "correct": true,
+    "problem": null
+  },
+  "manifestPath": "%LOCALAPPDATA%\\OpenAI\\extension\\com.openai.codexextension.json",
+  "registryKey": "HKCU\\Software\\Google\\Chrome\\NativeMessagingHosts\\com.openai.codexextension",
+  "note": "宿主诊断通过之外，还单独确认宿主程序存在，并完成 Chrome 实际自动控制验收。"
+}

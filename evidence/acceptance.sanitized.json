@@ -1,0 +1,22 @@
+{
+  "source": "本机官方 Browser API 实际操作验收的脱敏摘要",
+  "time": "2026-10-12T07:42:04.911Z",
+  "discoveredBrowserTypes": [
+    "extension",
+    "iab",
+    "mcpapps"
+  ],
+  "chrome": {
+    "publicPageRead": true,
+    "input": "Chrome OK",
+    "clickCount": 1,
+    "resultText": "Chrome · Chrome OK · 点击次数：1"
+  },
+  "iab": {
+    "publicPageRead": true,
+    "input": "In-app OK",
+    "clickCount": 1,
+    "resultText": "In-app · In-app OK · 点击次数：1"
+  },
+  "note": "会话、扩展实例、标签标识和完整页面状态已移除；记录的是当时验收结果，不代表官方修复。"
+}

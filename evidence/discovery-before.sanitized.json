@@ -1,0 +1,18 @@
+{
+  "source": "本机浏览器发现阶段诊断的脱敏摘要",
+  "recordDate": "2026-10-12",
+  "backendCounts": {
+    "cdp": 0,
+    "extension": 0,
+    "iab": 0,
+    "mcpapps": 1
+  },
+  "browserCount": 1,
+  "candidatePipeCount": 6,
+  "configReadFailures": [
+    "backend-info-request/ConfigReadError: Browser Use could not read config. | cause: Error: Codex TOML directory must not be a symlink",
+    "backend-info-request/ConfigReadError: Browser Use could not read config. | cause: Error: Codex TOML directory must not be a symlink"
+  ],
+  "sessionIdentifiersRemoved": true,
+  "note": "只保留与目录配置读取失败相关的错误，不是原始日志全文。"
+}
