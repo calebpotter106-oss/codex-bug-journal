@@ -31,7 +31,21 @@
     "resultText": "Chrome · Chrome host restart OK · 点击次数：1",
     "screenshot": "../assets/chrome-host-restart-2026-10-16.jpg"
   },
-  "desktopAppRestartAcceptance": "pending",
+  "desktopAppRestartAcceptance": {
+    "status": "passed",
+    "checkedAt": "2026-10-16T06:20:25.801Z",
+    "originalDesktopExited": true,
+    "newDesktopProcessObserved": true,
+    "freshToolSession": true,
+    "chromeDiscovered": true,
+    "publicPageRead": true,
+    "input": "Chrome desktop restart OK",
+    "clickCount": 1,
+    "resultText": "Chrome · Chrome desktop restart OK · 点击次数：1",
+    "screenshot": "../assets/chrome-desktop-restart-2026-10-16.jpg",
+    "codexHomeAndMarketplacePhysicalPathsPersisted": true,
+    "bothIndexesMissingRuntimePathCount": 0
+  },
   "windowsRebootTested": false,
   "causalityLimit": "Chrome operation recovered after restoring Browser cache before stale host indexes were changed. The stale indexes were an additional maintenance risk, not proven as this recurrence initial blocker.",
   "privacy": "Original paths, process identifiers, session identifiers, raw configuration and backups omitted."
