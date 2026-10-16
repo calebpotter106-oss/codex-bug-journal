@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-16",
+  "source": "本机诊断及官方 Browser API 操作验收的脱敏摘要",
+  "appVersionBefore": "26.1007.2314.0",
+  "appVersionCurrent": "26.1007.9446.0",
+  "previousPluginVersion": "26.1007.21434",
+  "currentBrowserAndChromePluginVersion": "26.1007.71326",
+  "cliVersion": "0.162.0-alpha.17.2",
+  "initialFailure": "Missing required Browser browser-service.mjs module",
+  "codexHomeStillPhysicalDirectory": true,
+  "physicalMarketplaceSourceRecognizedByCLI": true,
+  "indexesUpdated": 2,
+  "runtimePathExistenceChecks": {
+    "browserClientPath": true,
+    "browserServicePath": true,
+    "codexCliPath": true,
+    "nodePath": true,
+    "nodeReplPath": true,
+    "codexHome": true,
+    "extensionHostPath": true,
+    "nodeModuleDirs": true,
+    "resourcesPath": true
+  },
+  "manifestDiagnosticPassed": true,
+  "hostProcessRestartObserved": true,
+  "hostRestartAcceptance": {
+    "chromeDiscovered": true,
+    "publicPageRead": true,
+    "input": "Chrome host restart OK",
+    "clickCount": 1,
+    "resultText": "Chrome · Chrome host restart OK · 点击次数：1",
+    "screenshot": "../assets/chrome-host-restart-2026-10-16.jpg"
+  },
+  "desktopAppRestartAcceptance": "pending",
+  "windowsRebootTested": false,
+  "causalityLimit": "Chrome operation recovered after restoring Browser cache before stale host indexes were changed. The stale indexes were an additional maintenance risk, not proven as this recurrence initial blocker.",
+  "privacy": "Original paths, process identifiers, session identifiers, raw configuration and backups omitted."
+}

@@ -17,6 +17,7 @@
 | BUG-005 | [维持 Codex 的网络方案影响 QQ 传输与国内网站](reports/BUG-005-routing-side-effects.md) | 直连规则和站点入口验收通过；QQ 传输速度未验收 | 未确认 |
 | BUG-006 | [Microsoft Store 初始化失败阻碍桌面应用更新](reports/BUG-006-store-update-blocked.md) | 2026-10-10 商店恢复，安装包更新完成 | 未确认 |
 | BUG-007 | [整理资料时 Windows 桌面消失：Explorer 缺失](reports/BUG-007-desktop-shell-disappeared.md) | 2026-10-07 桌面壳恢复；退出原因未确认 | 未确认 |
+| BUG-008 | [应用更新后 Chrome 再次不可用：Browser 缓存缺失与旧宿主索引](reports/BUG-008-browser-update-cache-host-index.md) | 2026-10-16 本机恢复；宿主冷启动后验收通过，桌面应用重启待验证 | 未确认 |
 
 BUG-001 和 BUG-002 来自同一轮故障，分别记录配置路径和 Chrome 通信宿主的问题。它们不是两次彼此独立的复现实验。
 
