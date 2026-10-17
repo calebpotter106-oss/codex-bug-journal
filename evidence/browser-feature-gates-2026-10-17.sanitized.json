@@ -1,0 +1,91 @@
+{
+  "recordDate": "2026-10-17",
+  "status": "root_cause_unconfirmed_cross_chat_acceptance_pending",
+  "environment": {
+    "app": "26.1013.3656.0",
+    "browser": "26.1013.31256",
+    "chromePlugin": "26.1013.31256",
+    "codexHomeUsesPhysicalDirectory": true
+  },
+  "failureText": "Unable to load browser feature gates. Retry the browser command.",
+  "failureReproducedToday": false,
+  "actualInitializeRequests": {
+    "total": 10,
+    "http200": 8,
+    "http204": 2,
+    "http200DurationsMs": [
+      3145,
+      2379,
+      1327,
+      1397,
+      3016,
+      2784,
+      2171,
+      2599
+    ],
+    "transportErrorsObservedInSample": 0,
+    "scope": "Real runtime requests in the current chat; successful HTTP alone is not acceptance."
+  },
+  "observedStateSequence": {
+    "completeColdSequences": 2,
+    "initial": {
+      "success": false,
+      "errorMessage": "User changed during update",
+      "loadingStatus": "Loading"
+    },
+    "subsequentIdentityUpdate": {
+      "success": true,
+      "loadingStatus": "Ready"
+    },
+    "conclusion": "The intermediate cancellation also occurs during success and is not an established root cause."
+  },
+  "diagnosticChanges": {
+    "temporaryMetadataLogging": true,
+    "authenticationHeadersBodiesIdentityAndGateValuesRecorded": false,
+    "responsesGateDecisionsAndTimeoutsChanged": false,
+    "originalFileRestoredAndHashVerified": true,
+    "temporaryChangesRetainedAsRepair": false
+  },
+  "originalRuntimeAcceptance": [
+    {
+      "run": "A",
+      "originalCode": true,
+      "navigationReadInputClick": true
+    },
+    {
+      "run": "B",
+      "originalCode": true,
+      "navigationReadInputClick": true
+    }
+  ],
+  "officialManifestDiagnostic": {
+    "correct": true,
+    "exists": true,
+    "nameMatches": true,
+    "registryMatchesManifestPath": true,
+    "missingExpectedOrigins": []
+  },
+  "otherChatHistoricalEvidence": {
+    "date": "2026-10-16",
+    "previouslyFailedChatRebuiltItsOwnToolSession": true,
+    "subsequentRealPageInteractionObserved": true,
+    "turnDurationMs": 803920,
+    "nodeToolCalls": 57,
+    "completedNodeToolCalls": 54,
+    "failedNodeToolCalls": 3,
+    "allToolCallsAreBrowserActions": false,
+    "controlledCrossChatTestToday": false
+  },
+  "acceptanceNotPerformed": [
+    "controlled_switching_between_distinct_chats_today",
+    "full_app_restart_today",
+    "windows_restart_today"
+  ],
+  "permanentRepairEstablished": false,
+  "unresolved": [
+    "initial_failure_trigger",
+    "whether_repeated_commands_in_the_failed_instance_recover",
+    "controlled_cross_chat_stability"
+  ],
+  "privacy": "No raw chats, business pages, personal paths, proxy details, authentication data, application source or repair scripts included."
+}
