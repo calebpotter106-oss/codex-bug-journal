@@ -19,6 +19,7 @@
 | BUG-007 | [整理资料时 Windows 桌面消失：Explorer 缺失](reports/BUG-007-desktop-shell-disappeared.md) | 2026-10-07 桌面壳恢复；退出原因未确认 | 未确认 |
 | BUG-008 | [应用更新后 Chrome 再次不可用：Browser 缓存缺失与旧宿主索引](reports/BUG-008-browser-update-cache-host-index.md) | 2026-10-16 本机恢复；宿主及桌面应用重启后验收通过 | 未确认 |
 | BUG-009 | [当前对话可用，另一个或新对话却无法加载浏览器功能配置](reports/BUG-009-browser-feature-gates-cross-chat.md) | 根因待确认；2026-10-17 当前对话重复操作通过，跨对话稳定性未完成验收 | 未确认 |
+| BUG-010 | [切换代理出口后 ChatGPT 出现访问验证与 Work 云端异常](reports/BUG-010-chatgpt-cloudflare-proxy-work-cloud.md) | 大阪节点下用户报告恢复；新机场普通聊天可用，Work 云端尚未验收 | 未确认 |
 
 BUG-001 和 BUG-002 来自同一轮故障，分别记录配置路径和 Chrome 通信宿主的问题。它们不是两次彼此独立的复现实验。
 
